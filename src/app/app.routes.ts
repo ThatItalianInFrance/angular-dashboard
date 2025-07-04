@@ -11,7 +11,7 @@ export const routes: Routes = [
         path: '',
         component: AppLayoutComponent,
         children: [
-          { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+          { path: '', redirectTo: 'angular', pathMatch: 'full' },
           { path: 'dashboard', component: DashboardComponent },
           { path: 'settings', component: SettingsComponent },
           { path: 'angular', component: AngularComponent },
